@@ -1,0 +1,21 @@
+.title {
+  animation: colorFade 3s infinite;
+}
+
+@keyframes colorFade {
+  0% { color: purple; }
+  50% { color: pink; }
+  100% { color: purple; }
+}
+
+.btn {
+  background-color: lightblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+  background-color: blue;
+}
